@@ -6,11 +6,13 @@
 
 ## Technologies Used
 
-* _React
-* _JSX
+* _React_
+* _JSX_
 * _Node.js_
 * _javascript_
 * _Html_
+* _CSS_
+* VS Code
 
 ## Description
 
@@ -24,7 +26,7 @@
 
 * Go to https://github.com/nancyliqn91/Coffee-Shop-Inventory-Tracker to clone the GitHub repository.
 * In your terminal/command line, go into the folder that was cloned and run "npm install", this will downloading all the package dependencies.
-* Next run "npm run start" to start the server. Once the server loads, the webpage should load automatically but if not type in the localhost route that your terminal shows like `https://localhost:3000/`.
+* Next run "npm run start" to start the server. Once the server loads, the webpage should load automatically but if not type in the localhost route that your terminal shows like `https://localhost:3000`.
 
 ## Component Diagram
 
