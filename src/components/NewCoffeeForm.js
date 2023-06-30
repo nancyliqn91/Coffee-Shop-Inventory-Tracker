@@ -21,7 +21,7 @@ function NewCoffeeForm(props){
     <React.Fragment>
       <ReusableForm 
       formSubmissionHandler={handleNewCoffeeFormSubmission}
-      buttonText="Add Coffee!" />
+      buttonText="Add Coffee Bean!" />
     </React.Fragment>
   );
 }

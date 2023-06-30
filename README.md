@@ -12,6 +12,7 @@
 * _javascript_
 * _Html_
 * _CSS_
+* _Bootstrap_
 * VS Code
 
 ## 🌺 Description

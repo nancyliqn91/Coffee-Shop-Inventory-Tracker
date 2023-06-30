@@ -2,7 +2,7 @@ body {
   text-align: center;
 }
 
-#header {
+.header {
   text-align: center;
   color: brown;
 }
@@ -10,9 +10,6 @@ body {
 #price {
   color: red;
 }
-
-
-
 
 /* .App {
   text-align: center;
