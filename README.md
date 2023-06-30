@@ -17,10 +17,9 @@
 ## Description
 
 * A user can see a list of all available types of coffee beans.
-* For each item, a user can see its name, origin, price, and roast (light, medium, or dark) of the coffee bean. 
-* As a user, you can submit a form to add a new burlap sack of coffee to the inventory.
-* As a user, you are able to click on a burlap sack to see its detail page. For example, how many pounds of coffee beans are left in a burlap sack(A burlap sack has roughly 130 pounds).
-* As a user, you are able to click a button to sell a pound of coffee beans. The number of pounds in a sack of coffee beans are not able to go below 0.
+* For each type of coffee, a user can see its name, origin, price, roast (light, medium, or dark) and pounds of the coffee bean. 
+* As a user, you are able to click a button to buy a pound  coffee beans. If the number of pounds in a sack of coffee beans are 0, you will see `it is out of stock`.
+* As a user, you are able to click a button restock a burlap sack of coffee beans if it is less than 5 pounds.
 
 ## Setup/Installation Requirements
 
