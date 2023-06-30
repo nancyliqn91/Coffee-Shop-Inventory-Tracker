@@ -10,7 +10,12 @@ class CoffeeControl extends React.Component {
     super(props);
     this.state = {
       formVisibleOnPage:false,
-      mainCoffeeList: [], 
+      mainCoffeeList: [{
+        name: 'Liberica beans',
+        origin: "West Africa" ,  
+        roast: "Medium",
+        price: "27",
+        quantity: 13 }], 
       selectedCoffee: null,
       editing: false
     };
@@ -116,7 +121,7 @@ class CoffeeControl extends React.Component {
     else {
       currentlyVisibleState = <CoffeeList coffeeList={this.state.mainCoffeeList} 
       onCoffeeSelection={this.handleChangingSelectedCoffee}/>;     
-      buttonText = "Add Coffee"; 
+      buttonText = "Add Coffee Bean"; 
     }
 
     return (
