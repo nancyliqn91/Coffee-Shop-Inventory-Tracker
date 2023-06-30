@@ -105,18 +105,18 @@ class CoffeeControl extends React.Component {
       currentlyVisibleState = <EditCoffeeForm coffee = {this.state.selectedCoffee} 
       onEditCoffee = {this.handleEditingCoffeeInList}/>
 
-      buttonText = "Return to Coffee List";
+      buttonText = "Return to Coffee Bean List";
     } 
     else if (this.state.selectedCoffee != null) {
       currentlyVisibleState = <CoffeeDetail coffee = {this.state.selectedCoffee} 
       onClickingDelete = {this.handleDeletingCoffee} onClickingEdit = {this.handleEditClick}  onClickingBuy={this.handleBuyClick} onClickingAddBurlap={this.handleAddBurlapClick} />
 
-      buttonText = "Return to Coffee List";
+      buttonText = "Return to Coffee Bean List";
     } 
     else if (this.state.formVisibleOnPage) {
       currentlyVisibleState = <NewCoffeeForm onNewCoffeeCreation={this.handleAddingNewCoffeeToList} />
       
-      buttonText = "Return to Coffee List";
+      buttonText = "Return to Coffee Bean List";
     } 
     else {
       currentlyVisibleState = <CoffeeList coffeeList={this.state.mainCoffeeList} 
