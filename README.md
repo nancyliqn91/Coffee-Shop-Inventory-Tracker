@@ -28,6 +28,8 @@
 
 ## Component Diagram
 
+![Screenshot of component diagram](/src/img/diagram.png)
+
 
 ## Known Bugs
 

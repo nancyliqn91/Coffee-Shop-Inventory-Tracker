@@ -5,23 +5,23 @@ function Coffee(props){
   return (
     <React.Fragment>
       <div onClick = {() => props.whenCoffeeClicked(props.id)}>
-      <h3>{props.name} - {props.origin}</h3>
-      <p><em>{props.price}</em></p>
-      <p><em>{props.roast}</em></p>
+      <h3>{props.name} - {props.origin}</h3>     
+      <p><em>{props.roast}-{props.price}</em></p>
+      <p><em>{props.quantity}</em></p>
       <hr/>
       </div>
     </React.Fragment>
   );
 }
 
-Ticket.propTypes = {
+Coffee.propTypes = {
   name: PropTypes.string,
-  price: PropTypes.string,
   origin: PropTypes.string,
+  price: PropTypes.string,
   roast: PropTypes.string,
   quantity: PropTypes.number,
   id: PropTypes.string, 
-  whenTicketClicked: PropTypes.func 
+  whenCoffeeClicked: PropTypes.func 
 };
 
-export default Ticket;
+export default Coffee;
