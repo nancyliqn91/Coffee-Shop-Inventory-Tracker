@@ -14,7 +14,7 @@ function CoffeeDetail(props){
           <h3>Name: {coffee.name}</h3>
           <p><em>Origin: {coffee.origin}</em></p>   
           <p><em>Roast: {coffee.roast}</em></p>
-          <p><em>Unit Price(dollars/pound): {coffee.price}</em></p>
+          <p id="price"><em>Unit Price(dollars/pound): {coffee.price}</em></p>
           <p><em>Pounds: {coffee.quantity}</em></p>
         </Card.Text>
 

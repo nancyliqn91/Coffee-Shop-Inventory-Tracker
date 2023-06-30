@@ -2,7 +2,19 @@ body {
   text-align: center;
 }
 
-.App {
+#header {
+  text-align: center;
+  color: brown;
+}
+
+#price {
+  color: red;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +51,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */
