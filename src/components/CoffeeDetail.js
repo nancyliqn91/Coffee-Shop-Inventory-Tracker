@@ -24,9 +24,9 @@ function CoffeeDetail(props){
       }
 
       {
-      coffee.quantity < 5 && (
+      coffee.quantity < 10 && (
         <div>
-          <h1>It's less than 5 punds! Time to restock {coffee.name}</h1>
+          <h1>It's less than 10 punds! Time to restock {coffee.name}</h1>
           <button onClick={() => onClickingAddBurlap(coffee.id)}>Restock</button>
         </div>
       )

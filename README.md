@@ -17,9 +17,10 @@
 ## Description
 
 * A user can see a list of all available types of coffee beans.
-* For each type of coffee, a user can see its name, origin, price, roast (light, medium, or dark) and pounds of the coffee bean. 
-* As a user, you are able to click a button to buy a pound  coffee beans. If the number of pounds in a sack of coffee beans are 0, you will see `it is out of stock`.
-* As a user, you are able to click a button restock a burlap sack of coffee beans if it is less than 5 pounds.
+* A user can edit and delete a coffee bean's properties after entering them.
+* For each type of coffee beans, you can see its details include name, origin, price, roast (light, medium, or dark) and pounds of the coffee bean. 
+* For each type of coffee beans, you can click a button to buy a pound  coffee beans. If the number of pounds in a sack of coffee beans are 0, you will see `it is out of stock`.
+* For each type of coffee beans, you can see a prompt `It's less than 10 punds! Time to restock "coffee name"` if it is less than 10 pounds in the sack, and you can click a restock button to restock a burlap sack of coffee beans(which is 130 pounds). 
 
 ## Setup/Installation Requirements
 

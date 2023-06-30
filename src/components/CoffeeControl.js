@@ -83,7 +83,7 @@ class CoffeeControl extends React.Component {
   handleAddBurlapClick = () => {
     const selectedCoffee = this.state.selectedCoffee;
 
-    if (selectedCoffee.quantity < 5) {
+    if (selectedCoffee.quantity < 10) {
     this.setState({
       mainCoffeeList: this.state.mainCoffeeList
       .filter(coffee => coffee.id !== selectedCoffee.id)
