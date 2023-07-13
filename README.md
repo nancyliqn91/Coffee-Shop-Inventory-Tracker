@@ -42,3 +42,11 @@
 ## 🌹 License
 [MIT](license.txt)
 Copyright (c) 2023 Qian Li
+
+
+{
+        name: 'Liberica beans',
+        origin: "West Africa" ,  
+        roast: "Medium",
+        price: "27",
+        quantity: 13 }

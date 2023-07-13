@@ -6,7 +6,7 @@ function CoffeeList(props){
   return (
     <React.Fragment>
       <hr/>
-      {props.coffeeList.map((coffee,index) =>
+      {props.coffeeList.map((coffee) =>
         <Coffee
           whenCoffeeClicked = { props.onCoffeeSelection }
           name={coffee.name}
@@ -14,7 +14,8 @@ function CoffeeList(props){
           price={coffee.price}
           roast={coffee.roast}
           quantity={coffee.quantity}
-          key={index}/>
+          id={coffee.id}
+          key={coffee.id}/>
       )}
 
     </React.Fragment>

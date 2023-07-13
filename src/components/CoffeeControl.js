@@ -3,6 +3,7 @@ import NewCoffeeForm from './NewCoffeeForm';
 import CoffeeList from './CoffeeList';
 import CoffeeDetail from './CoffeeDetail';
 import EditCoffeeForm from './EditCoffeeForm';
+import { v4 } from 'uuid';
 
 class CoffeeControl extends React.Component {
 
@@ -15,7 +16,9 @@ class CoffeeControl extends React.Component {
         origin: "West Africa" ,  
         roast: "Medium",
         price: "27",
-        quantity: 13 }], 
+        quantity: 13,
+        id:v4() }], 
+
       selectedCoffee: null,
       editing: false
     };
