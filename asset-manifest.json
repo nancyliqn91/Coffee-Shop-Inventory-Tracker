@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Coffee-Shop-Inventory-Tracker/static/css/main.ba9328ae.css",
+    "main.js": "/Coffee-Shop-Inventory-Tracker/static/js/main.72bf0a03.js",
+    "static/media/background.jpg": "/Coffee-Shop-Inventory-Tracker/static/media/background.f7f5c718b23c885b79ff.jpg",
+    "index.html": "/Coffee-Shop-Inventory-Tracker/index.html",
+    "main.ba9328ae.css.map": "/Coffee-Shop-Inventory-Tracker/static/css/main.ba9328ae.css.map",
+    "main.72bf0a03.js.map": "/Coffee-Shop-Inventory-Tracker/static/js/main.72bf0a03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba9328ae.css",
+    "static/js/main.72bf0a03.js"
+  ]
+}
