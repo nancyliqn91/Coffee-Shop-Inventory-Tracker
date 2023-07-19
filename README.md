@@ -36,7 +36,7 @@
 
 ## 🌷 Known Bugs
 
-* No known bugs
+* No known bugs on 07/19/2023
 * Please reach out with any found bugs, questions, or concerns to nancyliqn91@gmail.com
 
 ## 🌹 License
@@ -44,9 +44,3 @@
 Copyright (c) 2023 Qian Li
 
 
-{
-        name: 'Liberica beans',
-        origin: "West Africa" ,  
-        roast: "Medium",
-        price: "27",
-        quantity: 13 }
